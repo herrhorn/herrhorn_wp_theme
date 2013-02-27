@@ -1,0 +1,213 @@
+/*
+Theme Name: herrhorn
+Author: Sebastian Horn
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/*--- General ---*/
+
+body, html {
+	margin: 0 auto 0 auto;
+}
+
+#wrap {
+	max-width: 800px;
+	margin: 0 auto 0 auto;
+}
+
+#title {
+	max-width: 100%;
+	margin: 50px auto 20px auto;
+	padding: 0 10px 0 15px;
+	text-align: center;
+	font-family: Fixed, monospace;
+}
+
+#navigation {
+	max-width: 100%;
+	margin: 0 auto 80px auto;
+	padding: 0 10px 0 10px;
+}
+
+#main {
+	max-width: 75%;
+	margin: 0 auto 0 auto;
+	padding: 0 15px 0 15px;
+}
+
+.post {
+	margin-bottom: 80px;
+}
+
+.meta {
+	margin-top: 1em;
+}
+
+.category_name {
+	margin-bottom: 50px;
+}
+
+#footer {
+	max-width: 100%;
+	min-height: 80px;
+	margin: 0 auto 0 auto;
+	padding: 0 10px 0 15px;
+	clear: both;
+}
+
+
+/*--- Headlines ---*/
+
+h1 {
+	margin: 0 auto 1em auto;
+	text-align: left;
+	font-size: 1.5em;
+	font-family: Fixed, monospace;	
+	font-weight: bold;
+}
+
+h2 {
+	text-align: left;
+	font-size: 2em;
+	font-family: Fixed, monospace;
+}
+
+
+/*--- Paragraphs ---*/
+
+p {
+	font-family: Fixed, monospace;
+	margin: 0 auto 1em auto;
+	font-size: 1.2em;
+}
+
+.post p {
+	line-height: 135%;
+}
+
+.meta p {
+	display: inline;
+	font-size: 1em;
+}
+
+.category_name p {
+	font-size: 1.5em;
+}
+
+.page_name p {
+	font-size: 1.5em;
+}
+
+/*--- Lists ---*/
+
+#navigation ul {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	text-align: center;
+	font-family: Fixed, monospace;
+}
+
+#navigation ul li {
+	display: inline;
+	padding: 0 20px;
+	font-size: 1.2em;
+}
+
+
+/*--- Links ---*/
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	background-color: #F7FE2E;
+}
+
+a:visited {
+	color: #000000;
+}
+
+#title a {
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#title a:hover {
+	background-color: #FFFFFF;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+.category a {
+	text-decoration: none;
+}
+
+#navigation ul li a:hover {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+
+/*--- Media Queries ---*/
+
+@media screen and (max-width: 480px) {
+
+#wrap {
+	width: 100%;
+}
+
+#main {
+	max-width: 95%;
+}
+
+#navigation {
+	margin: 0 auto 70px auto;
+}
+
+#navigation ul li {
+	display: block;
+	padding: 0 10px;
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1em;
+}
+
+} 
+
+
